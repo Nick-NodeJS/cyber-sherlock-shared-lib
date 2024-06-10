@@ -14,7 +14,7 @@ export interface IJob {
   price: IPrice;
   position: IPosition;
   ownerId: string;
-  executorId: string;
+  executorId: string | undefined;
   createdAt: Date;
   updatedAt: Date;
   expiredAt: Date;
